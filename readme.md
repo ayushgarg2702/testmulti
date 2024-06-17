@@ -55,3 +55,10 @@
 
 - Restart SSH Service (if necessary)
 * * sudo systemctl restart ssh
+
+
+
+- To know and update the current origin:
+* git remote -v
+* git remote remove origin
+* git remote add origin git@github.com:ayushgarg2702/HaskellHelloWorld.git
